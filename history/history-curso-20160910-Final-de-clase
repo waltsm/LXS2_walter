@@ -1,0 +1,150 @@
+    1  ls
+    2  sudo su
+    3  ifconfig
+    4  sudo apt-get update
+    5  sudo apt-get upgrade 
+    6  install openssh-server
+    7  apt-get install openssh-server
+    8  sudo apt-get install openssh-server
+    9  ifconfig
+   10  init 6
+   11  sudo su
+   12  sudo apt-get install vim
+   13  sudo apt-get install vim git-nox
+   14  sudo apt-get install git-nox
+   15  sudo apt-get install git
+   16  sudo apt-get install git_nox
+   17  sudo apt-get install git-nox
+   18  mkdir LXS2__walter
+   19  sudo su
+   20  ls
+   21  cd LXS2__walter/
+   22  mkdir history
+   23  vim .gitignore
+   24  ls
+   25  cd LXS2__walter/
+   26  ls
+   27  mkdir src
+   28  mkdir misc
+   29  Touch history/file
+   30  touch history/file
+   31  touch misc/file
+   32  touch src/file
+   33  git config --global user.name "waltsm"
+   34  git config --global user.email waltmenz@gmail.com
+   35  cat ../gitconfig
+   36  ls
+   37  cd ..
+   38  cat ../gitconfig
+   39  ls
+   40* 
+   41  cd LXS2__walter/
+   42  ls
+   43* 
+   44  ls
+   45  #git config --global user.name "waltsm"
+   46  #git config --global user.email waltmenz@gmail.com
+   47  ls ..
+   48  ls .
+   49  cd ..
+   50  ls
+   51  cd ..
+   52  ls ..
+   53  cd curso
+   54  ls
+   55  ls /home
+   56  cd curso
+   57  ls
+   58  sudo apt-get install tree
+   59  tree
+   60  cd LXS2__walter/
+   61  ls
+   62  ls -la
+   63  git status
+   64  git add .gitignore
+   65  git init
+   66  git add .gitignore
+   67  touch misc/file2
+   68  ls
+   69  ls misc
+   70  git add /misc
+   71  git add misc/
+   72  git status
+   73  git add history/
+   74  git add src/
+   75  git status
+   76  ls -la
+   77  git log
+   78  tree
+   79  git log
+   80  git status
+   81  git add history/
+   82  git status
+   83  vim .gitignore
+   84  git status 
+   85  ls -la 
+   86  cat .gitignore.swp 
+   87  rm .gitignore.swp
+   88  ls -a 
+   89  echo  "*.swp" > .gitignore
+   90  echo  "*~" >> .gitignore
+   91  cat .gitignore
+   92  vim .gitignore
+   93  ls
+   94  git status 
+   95  git add .gitignore
+   96  git commit -m  "agrego el gitignore"
+   97  git status 
+   98  git log 
+   99  git status
+  100  tree
+  101  git remote add origin https://github.com/waltsm/LXS2_walter.git
+  102  git push -u origin master
+  103  git remote add origin https://github.com/waltsm/LXS2_walter.git
+  104  git push -u origin master
+  105  dmesg
+  106  dmesg | head | wc
+  107  dmesg | tail | wc
+  108  dmesg | tail 
+  109  dmesg | head > misc/file2
+  110  git status 
+  111  git commit -m "agrego la cabeza de dmesg a file2"
+  112  git push -u origin master
+  113  git status
+  114  echo " " > misc/file2
+  115  cat /etc/network/interfaces
+  116  cat /etc/network/interfaces >> misc/file2
+  117  cat /misc/file2
+  118  ls
+  119  cd misc
+  120  ls
+  121  cat file2
+  122  git status
+  123  cd ..
+  124  cat misc/file2
+  125  git add misc/file2
+  126  git status 
+  127  cp ../.bashrc .
+  128  ls -a
+  129  git status 
+  130  mv .bashrc misc/bashrc
+  131  git status 
+  132  git add misc/bashrc
+  133  git status 
+  134  git commit -m "modifico file2 y agrego bashrc"
+  135  git push origin master
+  136  git log
+  137  vim bashrc
+  138  vim misc/bashrc
+  139  git diff
+  140  git commit -m "destrozo en bashrc"
+  141  git push origin master
+  142  git add misc/bashrc
+  143  git status
+  144  git commit -m "destrozo en bashrc"
+  145  git push origin master
+  146  echo hola
+  147  ls
+  148  history > history/history-$HOSTNAME-`date +%Y%m%d`-Final de clase
+  149  history > history/history-$HOSTNAME-`date +%Y%m%d` -Final de clase
+  150  history > history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
