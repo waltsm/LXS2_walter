@@ -1,0 +1,77 @@
+    1  ls
+    2  sudo su
+    3  ifconfig
+    4  sudo apt-get update
+    5  sudo apt-get upgrade 
+    6  install openssh-server
+    7  apt-get install openssh-server
+    8  sudo apt-get install openssh-server
+    9  ifconfig
+   10  init 6
+   11  sudo su
+   12  sudo apt-get install vim
+   13  sudo apt-get install vim git-nox
+   14  sudo apt-get install git-nox
+   15  sudo apt-get install git
+   16  sudo apt-get install git_nox
+   17  sudo apt-get install git-nox
+   18  mkdir LXS2__walter
+   19  sudo su
+   20  ls
+   21  cd LXS2__walter/
+   22  mkdir history
+   23  vim .gitignore
+   24  ls
+   25  cd LXS2__walter/
+   26  ls
+   27  mkdir src
+   28  mkdir misc
+   29  Touch history/file
+   30  touch history/file
+   31  touch misc/file
+   32  touch src/file
+   33  git config --global user.name "waltsm"
+   34  git config --global user.email waltmenz@gmail.com
+   35  cat ../gitconfig
+   36  ls
+   37  cd ..
+   38  cat ../gitconfig
+   39  ls
+   40  ls history
+   41  cd LXS2__walter/
+   42  ls
+   43  cd history
+   44  ls
+   45  #git config --global user.name "waltsm"
+   46  #git config --global user.email waltmenz@gmail.com
+   47  ls ..
+   48  ls .
+   49  cd ..
+   50  ls
+   51  cd ..
+   52  ls ..
+   53  cd curso
+   54  ls
+   55  ls /home
+   56  cd curso
+   57  ls
+   58  sudo apt-get install tree
+   59  tree
+   60  cd LXS2__walter/
+   61  ls
+   62  ls -la
+   63  git status
+   64  git add .gitignore
+   65  git init
+   66  git add .gitignore
+   67  touch misc/file2
+   68  ls
+   69  ls misc
+   70  git add /misc
+   71  git add misc/
+   72  git status
+   73  git add history/
+   74  git add src/
+   75  git status
+   76  ls -la
+   77  git log
