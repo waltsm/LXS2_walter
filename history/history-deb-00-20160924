@@ -1,0 +1,169 @@
+    1  df 'lh 
+    2  df -lh 
+    3  sudo shutdown -h now 
+    4  clear
+    5  ifconfig
+    6  sudo ifconfig
+    7  sudo init 0
+    8  sudo apt-get update
+    9  sudo apt-get upgrade
+   10  sudo adduser user1
+   11  id user1
+   12  sudo usermod -a -G user1
+   13  exit
+   14  sudo ifconfig
+   15  exit
+   16  id
+   17  pwd
+   18  sudo apt-get install git
+   19  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   20  sudo apt-get install openssh-server 
+   21  git clone https://github.com/waltsm/LXS2_walter.git
+   22  git ls
+   23  git log
+   24  git --list
+   25  git remote
+   26  git-ls-remote
+   27  git ls-remote
+   28  ls
+   29  rm LXS2_emmanuel
+   30  rm -r LXS2_emmanuel
+   31  rm -rf LXS2_emmanuel
+   32  ls
+   33  touch Music/song.mpt
+   34  mkdir Music
+   35  touch Music/song.mpt
+   36  ls Music/ algo
+   37  cd Music/
+   38  touch scripts
+   39  ls
+   40  cat error
+   41  cd ..
+   42  ls Music/ scripts > otro 2 > error
+   43  ls Music/scripts > otro 2 > error
+   44  ls Music/scripts > otro 2> error
+   45  cat error
+   46  cat otro
+   47  ls Music/scripts > otro 2>> error
+   48  cat otro
+   49  cat error
+   50  cat otro
+   51  ls Music/scripts > otro 2>> error
+   52  cat error
+   53  cat otro
+   54  git config user.name "Walter Mendez"
+   55  git log
+   56  ls
+   57  cd LXS2_walter/
+   58  ls
+   59  git config user.name "Walter Mendez"
+   60  git config user.email "waltmenz@gmail.com"
+   61  git log
+   62  cd ..
+   63  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   64  git pull origin master
+   65  ls
+   66  cd LXS2_emmanuel/
+   67  git pull origin master
+   68  ls
+   69  cd misc
+   70  ls
+   71  cp dhcpd.conf /LXS2_walter/misc
+   72  cd ..
+   73  ls
+   74  cd LXS2_walter/
+   75  ls
+   76  cp dhcpd.conf /LXS2_walter/misc/
+   77  cd ..
+   78  cd LXS2_emmanuel/
+   79  cd misc/
+   80  cp dhcpd.conf /LXS2_walter/misc/
+   81  ls
+   82  cd ..
+   83  cd LXS2_walter/
+   84  cd misc
+   85  cp LSX2_emmanuel/misc/dhcpd.conf /LXS2_walter/misc/
+   86  cd ..
+   87  ls
+   88  cd ..
+   89  ls
+   90  ls -l
+   91  cp /LSX2_emmanuel/misc/dhcpd.conf /LXS2_walter/misc/
+   92  cd LXS2_emmanuel/
+   93  ls
+   94  cd misc
+   95  pwr
+   96  prw
+   97  pwr
+   98  ls
+   99  pwd
+  100  cp /home/sysadmin/LXS2_emmanuel/misc/dhcpd.conf /home/sysadmin/LXS2_walter/misc
+  101  cd ..
+  102  ls
+  103  cd LXS2_walter/misc
+  104  ls
+  105  mkdir clase3
+  106  mv dhcpd.conf clase3
+  107  ls
+  108  cd clase3
+  109  ls
+  110  cat dhcpd.conf | grep "fixed" | grep "192." | awk F" "  '{print $2} | sort > red-blanca
+  111  ls
+  112  cat dhcpd.conf | grep "fixed" | grep "192." | awk F" "  '{print $2}' | sort > red-blanca
+  113  cat dhcpd.conf | grep "fixed" | grep "192." | awk F""  '{print $2}' | sort > red-blanca
+  114  cat dhcpd.conf | grep "fixed" | grep "192." | awk -F""  '{print $2}' | sort > red-blanca
+  115  ls
+  116  cat red-blanca 
+  117  vi red-blanca 
+  118  ls
+  119  cd LXS2_walter/
+  120  cd misc/
+  121  ls
+  122  cd clase3/
+  123  ls
+  124  print red-blanca 
+  125  cat dhcpd.conf | grep "fixed" | grep "192." | awk -F" "  '{print $2}' | sort > red-blanca
+  126  vi red-blanca 
+  127  cat dhcpd.conf | grep "fixed" | grep "192." | awk -F" "  '{print $2}' | sort > red-blanca
+  128  vi red-blanca 
+  129  cat dhcpd.conf | grep "fixed" | grep "10." | awk -F" "  '{print $2}' | sort > red-blanca
+  130  vi red-blanca 
+  131  ls
+  132  rm red-blanca 
+  133  ls
+  134  cat dhcpd.conf | grep "fixed" | grep "10." | awk -F" "  '{print $2}' | sort > red-blanca
+  135  cat dhcpd.conf | grep "fixed" | grep "192." | awk -F" "  '{print $2}' | sort > red-azul
+  136  cat dhcpd.conf | grep "fixed" | grep "163." | awk -F" "  '{print $2}' | sort > red-verde
+  137  ls
+  138  vi red-blanca
+  139  vi red-azul
+  140  vi red-verde
+  141  ls
+  142  git log
+  143  vi red-blanca
+  144  rm . red-blanca.swap
+  145  rm . red-blanca.swp
+  146  rm .red-blanca.swp
+  147  ls -l
+  148  vi red-blanca
+  149  less red-blanca
+  150  cat dhcpd.conf | grep "fixed" | grep "10.2" | awk -F" "  '{print $2}' | sort > red-blanca
+  151  vi red-blanca
+  152  less dhcpd.conf
+  153  cat dhcpd.conf | grep "fixed" | grep "10.0" | awk -F" "  '{print $2}' | sort > red-verde
+  154  vi red-verde
+  155  less red-blanca 
+  156  less red-azul 
+  157  less red-verde 
+  158  git log
+  159  git commit
+  160  cd ..
+  161  git commit
+  162  git update
+  163  git add
+  164  git commit -m "Practica de clase 3"
+  165  git add misc/clase3/
+  166  git commit -m "Practica de clase 3"
+  167  git status
+  168  git push origin master 
+  169  history > history/history-$HOSTNAME-`date +%Y%m%d`
